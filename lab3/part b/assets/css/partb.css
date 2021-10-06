@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+}
+div.wrapper{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:auto;
+}
+
+div.wrapper img.bg-image {
+    /*background-image: url("assets/images/hotel1.jpg");*/
+    
+    width:100%;
+    height:auto;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 0.9;
+    background-repeat: repeat-y;
+}
+
+header {
+
+position: relative;
+overflow:hidden;
+height: 100px;
+text-align:center;
+
+
+}
+header img {
+    
+    position: absolute;
+    top: -220px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+header h1{
+    position:relative;
+    
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornsilk;
+
+}
+form{
+    text-align: auto;
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    opacity: o.9;
+    border: darkslategrey;
+    border-radius: 20px;
+    
+}
+form h2{
+   
+    margin:0;
+}
+form div{
+    
+    padding:10px 0;
+}
+form div label{
+    
+    display:block;
+}
+form div input{
+    
+    width: 200px;
+}
+form div.form-address input{
+    
+    margin-bottom: 5px;
+}
+form div.buttons input{
+    
+    display: block;
+    width: 150px;
+
+}
+

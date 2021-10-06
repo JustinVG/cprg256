@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/thumb.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+body header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+body section p {
+    font-family: 'Alfa Slab One', cursive;
+    column-count: 2;
+    column-gap: 10px;
+    column-rule: 2px solid #434585;
+}
+figure {
+    float:left;
+    border-color: #333333;
+    border: 20px;
+}
+section img {
+    
+    border: black;
+    border-radius: 20px;
+}
+table {
+    block-size: auto;
+}
+
+footer nav {
+    text-align: center;
+    
+    background-color: paleturquoise;
+    opacity: 0.7;
+    border-left: double;
+    border-radius: 400px;
+    border: gray;
+    border-style: dotted;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+footer nav a {
+    text-decoration:none;
+    color: black;
+}
+footer nav a :hover {
+    color: white;
+    
+    
+}

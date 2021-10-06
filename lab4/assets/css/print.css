@@ -1,0 +1,8 @@
+.sidebar {
+    display: none;
+    visibility: hidden;
+}
+
+article {
+    width: 100%;
+}

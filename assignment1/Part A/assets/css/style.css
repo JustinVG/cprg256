@@ -1,0 +1,65 @@
+html {
+
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body {
+    background-image: url(../images/chocolate/choco.jpg);
+    background-repeat: repeat;
+    font-family: 'Special Elite', cursive;
+
+  
+    
+}
+h1 {
+    text-align: center;
+    font-size: 500%;
+    background-color: white;
+    opacity: 0.8;
+}
+figcaption{
+    font-style: italic;
+    
+    
+}
+body div p {
+    
+    
+}
+div.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 40px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 3%;
+    border: 2px solid black;
+    overflow: hidden;
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 2px solid #434585
+
+}
+figure.wrap-right {
+    float: right;
+    margin-left: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 20px 20px 0;
+
+    border-radius: 10px;
+    
+    float: left;
+    position: relative;
+    width: 250px;
+    height: auto;
+    transition: width 2s, height 2s;
+}
+img:hover {
+    width: 57%;
+    height: 57%;
+}

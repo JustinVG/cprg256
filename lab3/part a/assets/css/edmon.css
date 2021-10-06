@@ -1,0 +1,66 @@
+html {
+
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+
+
+body {
+    background-image: url('../images/Mount_Logan.jpg');
+    background-size: 100% auto;
+    font-size: 18px;
+
+}
+div.wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 40px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 3%;
+    border: 2px solid black;
+
+}
+
+
+p:first-letter{
+    color: blue;
+    font-size: 40px;
+    float:left;
+    line-height: 40px;
+}
+
+
+figure.wrap-right {
+    float: right;
+    margin-left: 20px;
+}
+
+
+figure {
+    width:200px;
+    margin:0 20px 20px 0;
+    float:left;
+
+}
+figure img {
+    display: block;
+    width: 100%;
+}
+footer{
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+}
+footer a:hover{
+    background-color: blueviolet;
+}

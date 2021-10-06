@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sait Student Survey </title>
+    <meta name="author" content="Justin">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Sait Student Survey</h1>
+    </header>
+
+    <section>
+
+
+
+        <form method="POST" action="https://www.sait.net">
+
+            <fieldset>
+
+                <div>
+                    <label for="studentName"> Student Name:</label> <input type="text" name="studentName" value="">
+                </div>
+                <div><label for="studentEmail"> Student Email:</label> <input type="email" name="studentEmail" value=""
+                        placeholder="example@sait.ca">
+                </div>
+
+                <div>
+                    <label for="studentPhone"> Student Phone Number</label> <input type="tel" name="studentPhone"
+                        value="">
+                </div>
+            </fieldset>
+            <fieldset>
+                <h3>Student Likes</h3>
+                <caption>What did you like about campus?</caption>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="studentLIkes[]" value="Campus Location">
+                            <span> Campus Location</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="studentLIkes[]" value="Atheletic Centre">
+                            <span> Athletic Centre</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="studentLIkes[]" value="Student Centre">
+                            <span> Student Centre</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="studentLIkes[]" value="Lab Classes">
+                            <span> Lab Classes</span>
+                        </label>
+                    </li>
+                </ul>
+
+
+
+            </fieldset>
+
+            <fieldset>
+                <h2> Student Interest</h2>
+                <caption>How did you hear about SAIT?</caption>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="saitInterest[]" value="Open House">
+                            <span>Open House</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="saitInterest[]" value="Advertising">
+                            <span>Advertising</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="saitInterest[]" value="School Counselling">
+                            <span>School Counselling</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="saitInterest[]" value="Word of Mouth">
+                            <span>Word of Mouth</span>
+                        </label>
+                    </li>
+                </ul>
+
+
+
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <label for="addictionalComments">AdditionalComments:</label>
+                </div>
+                <div>
+                    <textarea name="additionalComments" rows="4" cols="35"></textarea>
+                </div>
+
+
+
+            </fieldset>
+            <fieldset>
+                <div>
+                    <input type="submit" name="submit" value="Submit Form">
+                    <input type="reset" name="reset" value="Clear Form">
+                </div>
+
+            </fieldset>
+
+        </form>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

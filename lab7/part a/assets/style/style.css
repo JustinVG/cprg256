@@ -1,0 +1,32 @@
+html {
+
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+header {
+
+}
+
+body {
+    margin: 0
+}
+div.container {
+    width: 80%;
+    margin: 30px auto
+}
+.input-box input {
+    padding: 5px;
+    font-size: 18px;
+}
+.btn-box{
+    margin-top: 10px;
+}
+.btn-box button {
+    padding: 5px;
+    font-size: 18px;
+}
+#link-display {
+    
+}

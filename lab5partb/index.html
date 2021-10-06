@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume</title>
+    <meta name="viewport" content="width-device-width, initial-scale1.0">
+    <link rel="stylesheet"media="all" type="text/css" href="assets/css/lab2.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet"> 
+    
+
+</head>
+
+<body>
+    <a name="topOfPage"> Top of the Page</a>
+    <!-- heading section-->
+    <header>
+        <nav>
+            <a href="#aboutme">About Me</a>
+            <a href="#courseinfo">Course Info</a>
+            <a href="#workexp">Work Experience</a>
+            <a href="#contactme">Contact Me</a>
+        </nav>
+        <div>
+            <img src="assets/images/logo_jvg.png" alt="JVG logo">
+
+        </div>
+        <h1>Justin Van Groningen</h1>
+    </header>
+    <!-- about me section -->
+    <article>
+        <a name="aboutme"></a>
+        <h2>About Me</h2>
+
+        <div class="circle" ></div>
+        <img src="assets/images/justin.jpg">
+        <p>Hi my name is Justin Van Groningen. My favourite food is european white truffles because they are $3600 a
+            pound. <strong>yum delish</strong>. I was born in Sudbury Ontario. That place kind of sucks. I like to go to
+            the river but sometimes there's Canadian Geese there and they dont mess around. I try to avoid them as much
+            as possible because they are scary and hiss at me so in general I try to keep a safe distance from them at
+            all times. I do really like seeing the beavers though because they are much more friendly but sometimes they
+            slap their tails at the water which I think is a sign of aggresion but I don't actually know that I might be
+            making that up. </p>
+        
+    </article>
+
+    <!-- table about course info-->
+    <a name="courseinfo"></a>
+    <H2>Course Information</H2>
+    <table cellspacing="0">
+        <tr>
+            <th>Course Name</th>
+            <th>Course ID</th>
+            <th>Course Description</th>
+            <th>Instructor</th>
+
+        </tr>
+        <tr>
+            <td> Website Development Fundamentals</td>
+            <td> CPRG256</td>
+            <td> learn how to make websites with DEREK!!!!</td>
+            <td>Derek Yadlowski</td>
+        </tr>
+        <tr>
+            <td> Object Oriented Programming Essentials</td>
+            <td> CPRG251</td>
+            <td> learn how to program better</td>
+            <td>Khosro Salamari</td>
+        </tr>
+        <tr>
+            <td> Interface Design</td>
+            <td> CMPS 253</td>
+            <td> learn how designing works</td>
+            <td>Kody Dillman</td>
+        </tr>
+    </table>
+
+    <!-- work experience-->
+    <section>
+        <a name="workexp"></a>
+        <h2>Work Experience</h2>
+        <div>Glamorgan Bakery - Manager</div>
+        <div>Hi-Tech painting - Painter</div>
+        <div>OCL studios - Sound Engineer</div>
+        <div>KLM - Piano Teacher</div>
+    </section>
+
+    <!-- contact me form-->
+    <form method="POST" action="https://personal@sait.ca">
+        <a name="contactme"></a>
+        <h2>Contact Form</h2>
+        <div>
+            <label for="msgSubjects">Message Subject:</label>
+            <input type="text" name="msgSubject">
+        </div>
+        <div>
+            <label for="msgType">Message Type:</label>
+            <select name="msgType" id="msgType">
+                <option value="Personal">Personal</option>
+                <option value="Work">Work</option>
+
+            </select>
+   
+        </div>
+        <div>
+
+            <label for="msgContents">Message:</label>
+
+            <textarea name="msgcontents"></textarea>
+            <input type="submit" name="submit" value="Submit Form">
+            <input type="reset" name="reset" value="Reset Form">
+        </div>
+    </form>
+    <div>
+        <a href="#topOfPage">Back to top</a>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

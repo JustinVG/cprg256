@@ -1,0 +1,41 @@
+html {
+
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body {
+    background-image:url(../images/water.jpg);
+    background-repeat: repeat;
+}
+div.wrapper {
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+    display: block;
+    font-size:11px;
+    padding:4px 2px;
+    border:solid 3px #333333;
+    width:400px;
+    margin:0 auto;
+   margin-top: 30px
+}
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 180%;
+    text-align: center;
+    border:solid 3px #333333;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    width: 800px;
+    margin: 0 auto;
+    
+    
+}
+header img {
+    width: 200px;
+    height:auto:
+}
